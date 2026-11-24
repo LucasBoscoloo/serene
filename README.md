@@ -4,15 +4,14 @@
 Aplicação demonstrativa para clientes solicitarem horários de massagem e para a profissional acompanhar solicitações, confirmar ou cancelar atendimentos e controlar a disponibilidade.
 
 ## Integrantes
-- [Preencher com o nome do(a) integrante 1]
-- [Preencher com o nome do(a) integrante 2]
-- [Adicionar ou remover linhas conforme o grupo]
+- Lucas Boscolo
+- Gustavo Soares
+- Samuel Lucas Chiaranda
 
 ## Tecnologias
 - HTML5
 - CSS3 (layout responsivo)
 - JavaScript (sem bibliotecas externas)
-- `localStorage` do navegador para preservar os dados de demonstração neste dispositivo e navegador
 
 ## Requisitos
 - Navegador moderno com JavaScript habilitado.
@@ -35,24 +34,16 @@ Aplicação demonstrativa para clientes solicitarem horários de massagem e para
 - Persistência local entre recargas da página.
 - Layout adaptável para telas menores.
 
-## Demonstração
-Abra `index.html` e siga os passos de execução. A agenda inicia com um atendimento fictício de exemplo para facilitar a avaliação. Esse registro pode ser cancelado no painel.
-
-## Limitações
-Este é um projeto acadêmico executado localmente. Os dados ficam apenas no navegador usado e não são compartilhados entre dispositivos. O painel não possui autenticação e não deve receber dados reais. O endereço, duração e valor do atendimento precisam ser combinados com a profissional. Para publicação real, seriam necessários servidor, banco de dados, autenticação e proteção dos dados pessoais.
-
 ## Repositório GitHub
-- URL: [Inserir aqui o link do repositório após a publicação]
-- Antes da entrega, confirme que o professor tem acesso ao repositório.
+- URL: https://github.com/LucasBoscoloo/serene
 
 ## Entrega do vídeo
-Grave a demonstração das funcionalidades, tecnologias e resultados, garantindo que todos os integrantes apresentem sua participação com a câmera aberta, conforme as orientações do PIC I. O vídeo deve ser anexado no Teams ou compartilhado por link.
+https://youtu.be/ecY4leMpyjw?si=Mku8QL9G6kxE352e
 
 ## Acesso demonstrativo da área profissional
 - Usuário: `admin`
 - Senha: `1234`
 
-O login de demonstração libera o painel na sessão atual do navegador. Como o projeto é estático e não possui servidor, as credenciais ficam no código e não oferecem segurança para dados reais. A implantação real exige autenticação no servidor.
 
 
 
