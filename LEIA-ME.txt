@@ -1,0 +1,6 @@
+Serene — Agendamento de massagens
+
+Para executar, extraia o ZIP e abra index.html em um navegador moderno.
+Consulte README.md para requisitos, funcionalidades e instruções completas.
+
+
