@@ -24,7 +24,12 @@
       <nav class="nav" aria-label="Navegação principal">
         <button id="clientTab" class="active" onclick="switchView('client')">Agendar massagem</button>
       </nav>
-      <div class="header-actions"><span class="demo">Protótipo acadêmico</span><button id="accountButton" class="account-button" aria-label="Entrar na conta" title="Entrar" onclick="switchView('admin')"><span class="account-avatar" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M4.8 20c.8-3.4 3.4-5.2 7.2-5.2s6.4 1.8 7.2 5.2"/></svg></span><span class="account-label">Entrar</span></button></div>
+      <div class="header-actions"><span class="demo">Protótipo acadêmico</span><button id="accountButton"
+          class="account-button" aria-label="Entrar na conta" title="Entrar" onclick="switchView('admin')"><span
+            class="account-avatar" aria-hidden="true"><svg viewBox="0 0 24 24">
+              <circle cx="12" cy="8" r="3.5" />
+              <path d="M4.8 20c.8-3.4 3.4-5.2 7.2-5.2s6.4 1.8 7.2 5.2" />
+            </svg></span><span class="account-label">Entrar</span></button></div>
     </div>
   </header>
   <main>
@@ -56,39 +61,45 @@
             <label for="loginUser">Usuário</label>
             <input id="loginUser" autocomplete="username" placeholder="Digite seu usuário" required />
             <label for="loginPassword">Senha</label>
-            <input id="loginPassword" type="password" autocomplete="current-password" placeholder="Digite sua senha" required />
+            <input id="loginPassword" type="password" autocomplete="current-password" placeholder="Digite sua senha"
+              required />
             <div id="loginError" class="login-error" role="alert"></div>
             <button class="primary login-submit" type="submit">Entrar <span>→</span></button>
           </form>
-          
+
         </div>
-        <div class="login-aside"><span class="eyebrow">Seu espaço de cuidado</span><p>Uma agenda organizada deixa mais tempo para aquilo que importa: cuidar.</p><span class="aside-sparkle">✳</span></div>
+        <div class="login-aside"><span class="eyebrow">Seu espaço de cuidado</span>
+          <p>Uma agenda organizada deixa mais tempo para aquilo que importa: cuidar.</p><span
+            class="aside-sparkle">✳</span>
+        </div>
       </div>
       <div id="adminDashboard" class="hidden">
-      <div class="intro">
-        <div class="eyebrow">Área da profissional · demonstração</div>
-        <h1>Agenda de atendimentos.</h1>
-        <p>Organize solicitações e disponibilidade em um só lugar.</p>
-      </div>
-      <div class="stats" id="stats"></div>
-      <div class="card">
-        <div class="admin-head">
-          <h2>Atendimentos do dia</h2>
-          <div>
-            <label for="adminDate">Consultar data</label><input type="date" id="adminDate" />
-          </div>
+        <div class="intro">
+          <div class="eyebrow">Área da profissional · demonstração</div>
+          <h1>Agenda de atendimentos.</h1>
+          <p>Organize solicitações e disponibilidade em um só lugar.</p>
         </div>
-        <div id="appointments"></div>
-      </div>
-      <div class="card availability">
-        <h2>Disponibilidade</h2>
-        <p>Selecione um horário livre para bloquear ou desbloquear.</p>
-        <div class="slots" id="availability"></div>
-        <p class="caption">
-          Horários com solicitações ativas não podem ser bloqueados.
-        </p>
-      </div>
-      <div class="admin-session"><span>Você entrou como administradora</span><button class="secondary" onclick="logoutAdmin()">Sair</button><span class="caption">Acesso demonstrativo; para uso real, configure autenticação segura no servidor.</span></div>
+        <div class="stats" id="stats"></div>
+        <div class="card">
+          <div class="admin-head">
+            <h2>Atendimentos do dia</h2>
+            <div>
+              <label for="adminDate">Consultar data</label><input type="date" id="adminDate" />
+            </div>
+          </div>
+          <div id="appointments"></div>
+        </div>
+        <div class="card availability">
+          <h2>Disponibilidade</h2>
+          <p>Selecione um horário livre para bloquear ou desbloquear.</p>
+          <div class="slots" id="availability"></div>
+          <p class="caption">
+            Horários com solicitações ativas não podem ser bloqueados.
+          </p>
+        </div>
+        <div class="admin-session"><span>Você entrou como administradora</span><button class="secondary"
+            onclick="logoutAdmin()">Sair</button><span class="caption">Acesso demonstrativo; para uso real, configure
+            autenticação segura no servidor.</span></div>
       </div>
     </section>
   </main>
@@ -99,6 +110,3 @@
 </body>
 
 </html>
-
-
-
